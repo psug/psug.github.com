@@ -1,47 +1,16 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Paris Scala User Group by psug</title>
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script src="javascripts/respond.js"></script>
-    <!--[if lt IE 9]>
-      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <!--[if lt IE 8]>
-    <link rel="stylesheet" href="stylesheets/ie.css">
-    <![endif]-->
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+---
+layout: default
+---
 
-  </head>
-  <body>
-      <div id="header">
-        <nav>
-          <li class="fork"><a href="https://github.com/psug">View On GitHub</a></li>
-        </nav>
-      </div><!-- end header -->
+<div>
 
-    <div class="wrapper">
+  	{% assign index = true %}
 
-      <section>
-        <div id="title">
-          <h1>Paris Scala User Group</h1>
-          <p>paris scala user group welcome</p>
-          <hr>
-          <span class="credits left">Project maintained by <a href="https://github.com/psug">psug</a></span>
-          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="http://twitter.com/#!/michigangraham">mattgraham</a></span>
-        </div>
+    {% for post in site.posts %}
+		{% assign page = post %}
+		{% include post.html %}
+    {% endfor %}
 
-        <h3>Paris Scala User Group</h3>
+  <p class="rss-subscribe">Subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a> or browse <a href="https://github.com/{{ site.github_site_repo }}" target="_blank">source on GitHub</a>.</p>
 
-<p>Rendez vous sur la <a href="https://groups.google.com/forum/?fromgroups#!forum/paris-scala-user-group">mailing list</a> ou la page <a href="https://plus.google.com/u/0/b/115747665344888816844/115747665344888816844/about/p/pub">Google+</a>  </p>
-      </section>
-
-    </div>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-    
-  </body>
-</html>
+</div>
