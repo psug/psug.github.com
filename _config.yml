@@ -1,0 +1,21 @@
+# Site settings
+title: PSUG Blog
+author: The PSUG team
+author_avatar: https://gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=50
+email: psug@domain.tld
+description: Blog grouping the talks shown at the __Scala User Group__ in Paris, France.
+baseurl: "" # optional
+url: "https://psug.github.io"
+twitter_username: parisscalaug
+github_username: psug
+github_repo: psug/psug.github.io
+#google_analytics: UA-80085-YOUR-ID
+# disqus: disqus-id
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+excerpt_separator: "<!-- more -->"
+
+gems:
+  - jekyll-sitemap
