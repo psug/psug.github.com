@@ -6,8 +6,8 @@ email: psug@domain.tld
 description: Blog grouping the talks shown at the __Scala User Group__ in Paris, France.
 baseurl: "" # optional
 url: "https://psug.github.io"
-#twitter_username: foo_bar
-#github_username: psug
+twitter_username: parisscalaug
+github_username: psug
 github_repo: psug/psug.github.io
 #google_analytics: UA-80085-YOUR-ID
 # disqus: disqus-id
