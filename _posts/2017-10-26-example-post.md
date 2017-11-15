@@ -1,0 +1,27 @@
+---
+layout: post
+title: "PSUG #80 - Avant Scala.io"
+category: scala
+---
+
+Bonjour à tous !
+
+Ce mois-ci, c'est [Kpler](http://www.kpler.com/) qui nous accueille, un grand merci à eux !
+
+Au menu :
+
+# Mon application en scala de la tête aux pieds par Francois Laroche (Make.org) et Charley Pestoury (Make.org)
+
+Le Scala permet d'écrire les différentes couches des applications. Lors de la ré-écriture récente de notre application, nous avons pris le pari de partir sur scalajs, avec du react.
+
+Voici un retour d'expérience sur les différents choix que nous avons pu faire, que ce soit sur les frameworks, les façades ou encore la gestion des statiques ou du css
+
+# Bayes et Boole sont sur un bateau par Samy Zarour (Ebiznext)
+
+Que l’on soit data scientist, data engineer, ou développeur web, avec la place que la donnée prend dans nos projets, nous avons forcément dû toucher à la théorie des probabilités et/ou à la programmation fonctionnelle.
+
+Le but de la présentation est de faire le lien entre algèbre, programmation fonctionnelle et probabiliste, afin de montrer qu’ils ne sont pas différents les uns des autres. En effet, des propriétés d’un domaine se trouvent être utilisées dans un autre.
+
+L'objectif est d’élargir la vision des participants sur le monde de la donnée, de fournir des pistes de réflexion et de montrer ce qu’il est possible de faire en combinant des sciences différentes. Elle permettra ainsi à un développeur de pouvoir appréhender des sujets de data science, tout comme au data scientist d’industrialiser ses propres algorithmes grâce à un langage comme Scala.
+
+Après avoir vu les notions de base d’algèbre et de probabilités, je montrerai comment celles-ci sont combinées dans la programmation probabiliste grâce à Scala et la librairie Figaro.
