@@ -1,21 +1,26 @@
-# Site settings
+# Welcome to Jekyll!
 title: PSUG Blog
-author: The PSUG team
-author_avatar: https://gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=50
-email: psug@domain.tld
-description: Blog grouping the talks shown at the __Scala User Group__ in Paris, France.
-baseurl: "" # optional
-url: "https://psug.github.io"
+email: #psug@domain.tld
+description: Blog grouping the talks shown at the Scala User Group in Paris, France.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://psug.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: parisscalaug
-github_username: psug
-github_repo: psug/psug.github.io
-#google_analytics: UA-80085-YOUR-ID
-# disqus: disqus-id
+github_username:  psug
 
 # Build settings
 markdown: kramdown
-permalink: pretty
-excerpt_separator: "<!-- more -->"
+theme: minima
+plugins:
+  - jekyll-feed
 
-gems:
-  - jekyll-sitemap
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
